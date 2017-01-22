@@ -1,11 +1,15 @@
-\documentclass{article}
+\documentclass[10pt,landscape]{article}
 % An example how to use the calendar library and modify the layout, i.e. put
 % Sunday as the first week day.
 %
 % Author: Berteun Damman
+
+\usepackage[margin=0.1in]{geometry}
 \usepackage{tikz}
 \usetikzlibrary{calendar}
+
 \begin{document}
+\pagestyle{empty}
     \makeatletter
 
     % This way you can define your own conditions, for example, you
@@ -42,13 +46,13 @@
             \fi
             \pgf@x=\c@pgf@counta\pgf@x
             % Shift to the right position for the day.
-            \pgftransformxshift{\pgf@x}
+            \pgftransformxshift{1.2\pgf@x}
         },
         execute after day scope={
             % Week is done, shift to the next line.
             \ifdate{Saturday}{
                 \pgfmathsetlength{\pgf@y}{\tikz@lib@cal@yshift}%
-                \pgftransformyshift{-\pgf@y}
+                \pgftransformyshift{-0.86\pgf@y}
             }{}%
         },
         % This should be defined, glancing from the source code.
@@ -90,27 +94,44 @@
 
     % The actual calendar is now rather easy:
     \begin{tikzpicture}[every calendar/.style={
-            month label above centered,
-            month text={\textit{\%mt}},
-            year label left,
-            every year/.append style={font=\Large\sffamily\bfseries,
-                green!50!black},
-            if={(Sunday) [blue!70]},
+    		month label left,
+    		month yshift=0cm,
+%            month label above centered,
+            month text={\textit{\%m0}},
+            every month/.append style={blue!70},
+%            year label left,
+%            every year/.append style={font=\Large\sffamily\bfseries,
+%                green!50!black},
+            if={(Sunday) [gray!80]},
+            if={(Saturday) [gray!80]},
             week list sunday,
         }]
-        \matrix[column sep=1em, row sep=1em] {
-            \calendar[dates=2010-04-01 to 2010-04-last,draw year]; &
-            \calendar[dates=2010-05-01 to 2010-05-last]; &
-            \calendar[dates=2010-06-01 to 2010-06-last]; \\
-            \calendar[dates=2010-07-01 to 2010-07-last]; &
-            \calendar[dates=2010-08-01 to 2010-08-last]; &
-            \calendar[dates=2010-09-01 to 2010-09-last]; \\
-            \calendar[dates=2010-10-01 to 2010-10-last]; &
-            \calendar[dates=2010-11-01 to 2010-11-last]; &
-            \calendar[dates=2010-12-01 to 2010-12-last]; \\
-            \calendar[dates=2011-01-01 to 2011-01-last]; &
-            \calendar[dates=2011-02-01 to 2011-02-last]; &
-            \calendar[dates=2011-03-01 to 2011-03-last]; \\
-        };
+		\matrix[column sep=1em, row sep=1em] {
+        	\calendar[dates=2017-01-01 to 2017-12-last]; &
+        	\calendar[dates=2017-01-01 to 2017-12-last]; &
+        	\calendar[dates=2017-01-01 to 2017-12-last]; &
+	       	\calendar[dates=2017-01-01 to 2017-12-last]; &
+			\calendar[dates=2017-01-01 to 2017-12-last];\\};
+    \end{tikzpicture}
+
+    \begin{tikzpicture}[every calendar/.style={
+    		month label left,
+    		month yshift=0cm,
+%            month label above centered,
+            month text={\textit{\%m0}},
+            every month/.append style={blue!70},
+%            year label left,
+%            every year/.append style={font=\Large\sffamily\bfseries,
+%                green!50!black},
+            if={(Sunday) [gray!80]},
+            if={(Saturday) [gray!80]},
+            week list sunday,
+        }]
+		\matrix[column sep=1em, row sep=1em] {
+        	\calendar[dates=2017-01-01 to 2017-12-last]; &
+        	\calendar[dates=2017-01-01 to 2017-12-last]; &
+        	\calendar[dates=2017-01-01 to 2017-12-last]; &
+	       	\calendar[dates=2017-01-01 to 2017-12-last]; &
+			\calendar[dates=2017-01-01 to 2017-12-last];\\};
     \end{tikzpicture}
 \end{document}
