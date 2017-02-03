@@ -38,7 +38,10 @@ function initializeClock(id, endtime) {
 }
 
 //var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-var deadline = new Date(Date.parse(new Date()) + 6.25 * 60 * 60 * 1000);
+//var deadline = new Date(Date.parse(new Date()) + 6.25 * 60 * 60 * 1000);
+var deadline = new Date();
+deadline.setFullYear(2017,01,03);
+deadline.setHours(17,0,0,0);
 initializeClock('clockdiv', deadline);
 
 //TODO: Allow for a date picker to set the dealine for a given timer.
