@@ -1,0 +1,67 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+I am following the tutorial featured on [RDataMining.com]{http://www.rdatamining.com/docs/twitter-analysis-with-r} to learn about accessing Twitter data for text mining. I had to go to [https://dev.twitter.com/apps]{https://dev.twitter.com/apps} to setup my application tokens.
+
+```{r}
+library(twitteR)
+library(ROAuth)
+library(dplyr)
+library(tm)
+```
+
+```{r include=FALSE}
+consumer_key = 'NQhM4qfwxUQsUb94eTHjLZHro'
+consumer_secret = 'DZKSXZkH8Q5O0wTDgpO11EzN4cmDEpOTEAyacSJgprN5icGCev'
+access_token = '24812986-jlAJ2gmLDOo0D3L3qTFcvRopa5aEtFcs2iCsp94V9'
+access_secret = 'ioeBHhqteFhlbBY4yNKz36yOzlQ2EwqUEfzABbZU6oGD5'
+
+```
+
+```{r}
+setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
+tweets <- userTimeline("RDataMining", n = 3200)
+```
+
+```{r}
+(n.tweet <- length(tweets))
+tweets.df <- twListToDF(tweets)
+tbl_df(tweets.df)
+```
+
+```{r}
+myCorpus <- Corpus(VectorSource(tweets.df$text))
+myCorpus <- tm_map(myCorpus, content_transformer(tolower))
+removeURL <- function(x) gsub('http[^[:space:]]*', "", x)
+myCorpus <- tm_map(myCorpus, content_transformer(removeURL))
+removeNumPunct <- function(x) gsub("[^[:alpha:][:space:]]*", "", x)
+myCorpus <- tm_map(myCorpus, content_transformer(removeNumPunct))
+myStopwords <- c(setdiff(stopwords('english'), c('r', 'big')), 
+                'use', 'see', 'used', 'via', 'amp')
+myCorpus <- tm_map(myCorpus, removeWords, myStopwords)
+myCorpus <- tm_map(myCorpus, stripWhitespace)
+myCorpusCopy <- myCorpus
+myCorpus <- tm_map(myCorpus, stemDocument)
+
+```
+
+```{r}
+writeLines(strwrap(myCorpus[[190]]$content, 60))
+```
+
+```{r}
+stempCompletion2 <- function(x, dictionary) {
+  x <- unlist(strsplit(as.character(x), " "))
+  x <- x[x != ""]
+  x <- stemCompletion(x, dictionary=dictionary)
+  x <- paste(x, sep="", collapse=" ")
+  PlainTextDocument(stripWhitespace(x))
+}
+
+  }
+
+```
+
+

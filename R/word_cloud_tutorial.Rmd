@@ -1,0 +1,49 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+
+setwd('~/Box Sync/Development/')
+
+library(tm)
+library(SnowballC)
+library(wordcloud)
+
+jeopQ <- read.csv('JEOPARDY_CSV.csv', stringsAsFactors = FALSE)
+```
+
+```{r}
+head(jeopQ$Question)
+```
+
+```{r}
+# The actual questions are available in the Question column.
+
+# Now, we will perform a series of operations on the text data to simplify it.
+# First, we need to create a corpus.
+jeopCorpus <- Corpus(VectorSource(jeopQ$Question))
+# Next, we will convert the corpus to a plain text document.
+
+jeopCorpus <- tm_map(jeopCorpus, PlainTextDocument)
+# Then, we will remove all punctuation and stopwords. Stopwords are commonly used words in the English language such as I, me, my, etc. You can see the full list of stopwords using stopwords('english').
+
+jeopCorpus <- tm_map(jeopCorpus, removePunctuation)
+jeopCorpus <- tm_map(jeopCorpus, removeWords, stopwords('english'))
+# Next, we will perform stemming. This means that all the words are converted to their stem (Ex: learning -> learn, walked -> walk, etc.). This will ensure that different forms of the word are converted to the same form and plotted only once in the wordcloud.
+
+jeopCorpus <- tm_map(jeopCorpus, stemDocument)
+# Now, we will plot the wordcloud.
+
+wordcloud(jeopCorpus, max.words = 100, random.order = FALSE)
+
+
+```
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).

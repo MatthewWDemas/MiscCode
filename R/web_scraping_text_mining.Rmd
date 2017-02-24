@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r, eval=FALSE}
+install.packages('rvest')
+```
+
+```{r}
+library(rvest)
+lme4_art <- read_html("http://lme4.r-forge.r-project.org/bib/lme4bib.html")
+```
+
+```{r}
+library(tm)
+library(readr)
+library(wordcloud)
+lme4_art <- read_csv("~/Box Sync/Development/RandomBitsOfCode/Data/lme4_articles.txt", 
+    col_names = FALSE)
+docs <- Corpus(VectorSource(as(lme4_art$X1, 'vector')))
+docs <- tm_map(docs, PlainTextDocument)
+docs <- tm_map(docs, removePunctuation)
+docs <- tm_map(docs, removeWords)
+docs <- tm_map(docs, stemDocument)
+wordcloud(docs)
+```
+
+

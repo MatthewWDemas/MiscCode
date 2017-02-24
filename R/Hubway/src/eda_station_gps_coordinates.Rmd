@@ -1,0 +1,107 @@
+---
+title: "Wrapping My Head around Bike Station Locations"
+author: "Matthew Demas"
+date: "23 February 2017"
+output:
+  html_document:
+    fontsize: 11pt
+    toc: yes
+    toc_depth: 2
+  html_notebook: default
+  pdf_document:
+    toc: yes
+    toc_depth: 2
+geometry: margin=0.5in
+---
+
+<style type="text/css">
+body, td {
+   font-size: 10px;
+}
+code.r{
+  font-size: 10px;
+}
+pre {
+  font-size: 10px
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = '!h')
+```
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 90)
+```
+
+# Summary
+The purpose of this document is to generate some visual understanding of where the Hubway stations are located in the Boston area. The municipality of Boston has the most stations as well as the stations with the largest number of docks. The GPS station location is static and future analyses will need to incorporate time varying data.
+
+# Importing the Data
+I downloaded the data from the Hubway data repository, and imported it into R.
+```{r}
+library(readr)
+stations <- read_csv("~/Box Sync/Development/RandomBitsOfCode/R/Hubway/data/Hubway_Stations_2011_2016.csv")
+View(stations)
+```
+
+```{r}
+library(dplyr)
+library(knitr)
+summary(stations)
+kable(tbl_df(stations))
+```
+
+It appears that most stations have around 15 docks, and the largest station has approximately 45 docks. Grouping by municipality, the Boston has the greatest number of stations with approximately 15 docks, as well as the station with the greatest number of docks (~45).
+```{r}
+library(ggplot2)
+ggplot(stations, aes(x=`# of Docks`)) +
+  geom_histogram(binwidth = 1) +
+  # geom_dotplot(dotsize = 1, binwidth = 1) + 
+  xlab('# of Docks') +
+  ylab('Frequency') +
+  ggtitle('Histogram of Number of Docks') +
+  ylim(c(0,100)) + 
+  xlim(c(0,50))
+```
+
+```{r}
+ggplot(stations, aes(x=`# of Docks`, fill=Municipality)) +
+  geom_histogram(binwidth = 1, position='dodge') +
+  # geom_dotplot(dotsize = 1, binwidth = 1) + 
+  xlab('# of Docks') +
+  ylab('Frequency') +
+  ggtitle('Histogram of Number of Docks') +
+  xlim(c(0,50))
+```
+
+
+# Visualizing the Boston Area
+I wanted to start by obtaining a map of the Boston area on which I could plot the GPS coordinates of the Hubway stations. The ```ggmap``` package in R is very simple to use and allowed me to build a base map and then add a layer containing the Hubway station GPS coordinates.
+```{r}
+library(ggmap)
+boston <- 'boston'
+qmap(boston, zoom = 14)
+```
+```{r}
+BostonMap <- qmap("boston", zoom = 12, color = "bw", legend = "topleft")
+BostonMap +
+   # geom_point(aes(x = Longitude, y = Latitude, colour = `# of Docks`, size = `# of Docks`),
+   # geom_point(aes(x = Longitude, y = Latitude, colour = `Station ID`, size = `# of Docks`),
+   geom_point(aes(x = Longitude, 
+                  y = Latitude, 
+                  size = `# of Docks`,
+                  fill = Municipality),
+              data = stations, 
+              colour = 'black', 
+              alpha = 0.75,
+              shape = 21) +
+  # theme(legend.position="none")
+  theme(legend.position="bottom")
+```
+
+It is clear from the map, that the majority of the station locations are in the Boston municipality. I was surprised at how far reaching this municipality is, especially that it "oozes" out and surrounds the Brookline municipality. I am not sure if this is due to labeling conventions employed by the Hubway dataset or if this reflects the true divisions of the area.

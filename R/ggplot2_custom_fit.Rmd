@@ -1,0 +1,20 @@
+```{r}
+# get count of items answered (number)
+# get number correct
+ssr.df <- pom.df %>% dplyr::group_by(op, trial, pd) %>%
+  dplyr::summarise(count = n_distinct(number),
+            num_corr = sum(correct),
+            avg_ssr = mean(ssr),
+            corr_rate = num_corr/count)
+```
+
+```{r}
+# get parameters associated with operator "x"
+# apply prediction function to ssr value for operator "x"
+i = 'RO1'
+ssr.df$pred = NA * ssr.df$avg_ssr
+operators = as.list(unique(ssr.df[,'op']))
+ssr.df2 = left_join(ssr.df, glmerIII, by='op')
+ssr.df2$pred = invlogit(ssr.df2$int + ssr.df2$ssr * ssr.df2$avg_ssr)
+ssr.df = ssr.df2
+```

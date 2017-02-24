@@ -1,0 +1,17 @@
+---
+title: "Detecting Fraudulent Transactions (Chapter 4)"
+author: "Matt Demas"
+date: "1/12/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Goals
+* Outlier/Anomaly Detection
+* Clustering
+* Semi-supervised Prediction Models
+
+

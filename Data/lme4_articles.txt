@@ -1,0 +1,881 @@
+Articles using lme4/nlme
+
+Please send corrections and additions (in bibtex format) to vasishth dot shravan at gmail dot com with subject line "lme4bib R-forge".
+
+For help on bibtex formatting see here. See below for example entries.
+[1]	Leixuri Aguirre, Jesus M. Frias, Catherine Barry-Ryan, and Helen Grogan. Assessing the effect of product variability on the management of the quality of mushrooms (agaricus bisporus). Postharvest Biology and Technology, 49(2):247 - 254, 2008.
+@article{Aguirre2008247,
+  title = {Assessing the effect of product variability on the management of
+the quality of mushrooms (Agaricus bisporus)},
+  journal = {Postharvest Biology and Technology},
+  volume = {49},
+  number = {2},
+  pages = {247 - 254},
+  year = {2008},
+  note = {},
+  issn = {0925-5214},
+  doi = {DOI: 10.1016/j.postharvbio.2008.01.014},
+  url = {http://www.sciencedirect.com/science/article/B6TBJ-4SF9C6F-1/2/be7b53e348d2
+2cf76c58201aabcbb08b},
+  author = {Leixuri Aguirre and Jesus M. Frias and Catherine Barry-Ryan and
+Helen Grogan},
+  keywords = {Modelling},
+  keywords = {Shelf-life},
+  keywords = {Mushrooms}
+}
+[2]	Leixuri Aguirre, Jesus Maria Frias, Catherine Barry-Ryan, and Helen Grogan. Modelling browning and brown spotting of mushrooms (agaricus bisporus) stored in controlled environmental conditions using image analysis. Journal of Food Engineering, 91(2):280 - 286, 2009.
+@article{Aguirre2009280,
+  title = {Modelling browning and brown spotting of mushrooms (Agaricus
+bisporus) stored in controlled environmental conditions using image
+analysis},
+  journal = {Journal of Food Engineering},
+  volume = {91},
+  number = {2},
+  pages = {280 - 286},
+  year = {2009},
+  note = {},
+  issn = {0260-8774},
+  doi = {DOI: 10.1016/j.jfoodeng.2008.09.004},
+  url = {http://www.sciencedirect.com/science/article/B6T8J-4TF7C4C-1/2/0e30dbc222b2
+658415a6f0b92cd84ae2},
+  author = {Leixuri Aguirre and Jesus Maria Frias and Catherine Barry-Ryan and
+Helen Grogan},
+  keywords = {Image analysis},
+  keywords = {Mushroom},
+  keywords = {Storage},
+  keywords = {Kinetics},
+  keywords = {Modelling},
+  keywords = {Non-linear mixed effect}
+}
+[3]	Melissa Amarello, Erika M. Nowak, Emily N. Taylor, Gordon W. Schuett, Roger A. Repp, Philip C. Rosen, and David L. Hardy Sr. Potential environmental influences on variation in body size and sexual size dimorphism among Arizona populations of the western diamond-backed rattlesnake (crotalus atrox). Journal of Arid Environments, 74(11):1443 - 1449, 2010.
+@article{Amarello20101443,
+  title = {Potential environmental influences on variation in body size
+and sexual size dimorphism among {A}rizona populations of the western
+diamond-backed rattlesnake (Crotalus atrox)},
+  journal = {Journal of Arid Environments},
+  volume = {74},
+  number = {11},
+  pages = {1443 - 1449},
+  year = {2010},
+  note = {},
+  issn = {0140-1963},
+  doi = {DOI: 10.1016/j.jaridenv.2010.05.019},
+  url = {http://www.sciencedirect.com/science/article/B6WH9-50F36F9-1/2/e8b0e9f6e4874ce5855365ceb3eb50d2},
+  author = {Melissa Amarello and Erika M. Nowak and Emily N. Taylor and
+Gordon W. Schuett and Roger A. Repp and Philip C. Rosen and David L.
+Hardy Sr.},
+  keywords = {Ectotherm},
+  keywords = {Precipitation},
+  keywords = {Reptile},
+  keywords = {Resource availability},
+  keywords = {Seasonality},
+  keywords = {Temperature}
+}
+[4]	Janina Aschwanden, Lorenz Gygax, Beat Wechsler, and Nina Keil. Social distances of goats at the feeding rack: Influence of the quality of social bonds, rank differences, grouping age and presence of horns. Applied Animal Behaviour Science, 114:116-131, 2008.
+@article{Asc:08aE,
+  author = {Aschwanden, Janina and Gygax, Lorenz and Wechsler, Beat and Keil, Nina},
+  title = {Social Distances of Goats at the Feeding rack: Influence of the Quality of Social Bonds, Rank Differences, Grouping Age and Presence of Horns},
+  journal = {Applied Animal Behaviour Science},
+  year = {2008},
+  volume = {114},
+  pages = {116--131}
+}
+[5]	Janine Aschwanden, Lorenz Gygax, Beat Wechsler, and Nina Keil. Cardiac activity in dairy goats whilst feeding side-by-side at two different distances and during social separation. Phyiology & Behavior, 95:641-648, 2008.
+@article{Asc:08E,
+  author = {Aschwanden, Janine and Gygax, Lorenz and Wechsler, Beat and Keil, Nina},
+  title = {Cardiac Activity in Dairy Goats Whilst Feeding Side-by-Side at Two Different Distances and during Social Separation},
+  journal = {Phyiology \& Behavior},
+  year = {2008},
+  volume = {95},
+  pages = {641--648}
+}
+[6]	P.J. Baker, A.P. Robinson, and J.J. Ewel. Sudden and sustained response of Acacia koa to crown release in stagnant stands. Can. J. For. Res, 38:656-666, 2008.
+@article{baker2008sas,
+  title = {{Sudden and sustained response of Acacia koa to crown release in stagnant stands.}},
+  author = {Baker, P.J. and Robinson, A.P. and Ewel, J.J.},
+  journal = {Can. J. For. Res},
+  volume = {38},
+  key = {nlme, p-values},
+  pages = {656--666},
+  year = {2008}
+}
+[7]	Sigrid Beck and Shravan Vasishth. Multiple focus. Journal of Semantics, 2009.
+@article{beckvasishth09,
+  author = {Sigrid Beck and Shravan Vasishth},
+  title = {Multiple Focus},
+  journal = {Journal of Semantics},
+  year = {2009},
+  url = {http://www.ling.uni-potsdam.de/~vasishth/Papers/BeckVasishth09.pdf}
+}
+[8]	Daniel Boesch, Adrian Steiner, Lorenz Gygax, and Markus Stauffacher. Burdizzo castration of calves less than 1-week old with and without local anaesthesia: Short-term behavioural responses and plasma cortisol levels. Applied Animal Behaviour Science, 114:330-345, 2008.
+@article{Boe:08E,
+  author = {Boesch, Daniel and Steiner, Adrian and Gygax, Lorenz and Stauffacher, Markus},
+  title = {Burdizzo Castration of Calves less than 1-week Old with and without Local Anaesthesia: Short-Term Behavioural Responses and Plasma cortisol Levels},
+  journal = {Applied Animal Behaviour Science},
+  year = {2008},
+  volume = {114},
+  pages = {330--345}
+}
+[9]	Marisa Ferrara Boston, John Hale, Reinhold Kliegl, Umesh Patil, and Shravan Vasishth. Parsing costs as predictors of reading difficulty: An evaluation using the potsdam sentence corpus. Journal of Eye Movement Research, 2:1-12, Sept 2008 2008.
+@article{jemrsurprisal,
+  author = {Marisa Ferrara Boston and John Hale and Reinhold Kliegl and Umesh Patil and Shravan Vasishth},
+  title = {Parsing costs as predictors of reading difficulty: {A}n evaluation using the Potsdam Sentence Corpus},
+  year = {2008},
+  journal = {Journal of Eye Movement Research},
+  optkey = {},
+  month = {Sept 2008},
+  volume = {2},
+  issue = {1},
+  pages = {1--12},
+  url = {http://www.jemr.org/online/2/1/1}
+}
+[10]	Marisa Ferrara Boston, John Hale, Reinhold Kliegl, and Shravan Vasishth. Surprising parser actions and reading difficulty. In Proceedings of ACL HLT, Columbus, OH, 2008.
+@inproceedings{bostonetal08,
+  author = {Marisa Ferrara Boston and John Hale and Reinhold Kliegl and Shravan Vasishth},
+  title = {Surprising parser actions and reading difficulty},
+  optcrossref = {},
+  optkey = {},
+  booktitle = {Proceedings of ACL HLT},
+  optpages = {},
+  year = {2008},
+  opteditor = {},
+  optvolume = {},
+  optnumber = {},
+  optseries = {},
+  address = {Columbus, OH},
+  optmonth = {},
+  optorganization = {},
+  optpublisher = {},
+  optnote = {},
+  optannote = {}
+}
+[11]	Milena Burri, Beat Wechsler, Lorenz Gygax, and Roland Weber. Influence of straw length, sow behaviour and room temperature on the incidence of dangerous situations for piglets in a loose farrowing system. Applied Animal Behaviour Science, 117:181-189, 2009.
+@article{Bur:09E,
+  author = {Burri, Milena and Wechsler, Beat and Gygax, Lorenz and Weber, Roland},
+  title = {Influence of Straw Length, Sow Behaviour and Room Temperature on the Incidence of Dangerous Situations for Piglets in a Loose Farrowing System},
+  journal = {Applied Animal Behaviour Science},
+  year = {2009},
+  volume = {117},
+  pages = {181--189}
+}
+[12]	I. Castberg, E. Skogvoll, and O. Spigset. Quetiapine and drug interactions: evidence from a routine therapeutic drug monitoring service. J Clin Psychiatry, 68(10):1540-1545, 2007.
+@article{castberg2007qad,
+  title = {{Quetiapine and drug interactions: evidence from a routine therapeutic drug monitoring service.}},
+  author = {Castberg, I. and Skogvoll, E. and Spigset, O.},
+  journal = {J Clin Psychiatry},
+  volume = {68},
+  number = {10},
+  pages = {1540--1545},
+  year = {2007}
+}
+[13]	S.C. Fonseca, F.A.R. Oliveira, J.M. Frias, and J.K. Brecth. Application of mathematical modelling and computer simulation to the design of modified atmosphere packages accounting for product variability. In E. Balsa-Canto, J. Mora, J.R. Banga, and E. Onate, editors, Computational Techniques in Food Engineering, Columbus, OH, 2002.
+@inproceedings{fonseca2002,
+  author = {Fonseca, S.C. and Oliveira, F.A.R. and Frias, J.M. and Brecth, J.K.},
+  title = {Application of mathematical modelling and computer simulation to
+the design of modified atmosphere packages accounting for product
+variability},
+  optkey = {MAP, design, simulation, variability, produce, kale, respiration
+rate, gas exchange},
+  booktitle = {Computational Techniques in Food Engineering},
+  optpages = {70--84},
+  year = {2002},
+  editor = {Balsa-Canto, E. and Mora, J. and Banga, J.R. and Onate,E.},
+  address = {Columbus, OH}
+}
+[14]	J.M. Frias and L.M. Cunha. Handbook of food science, technology and engineering. chapter Model building, pages 144-1-144-16. CRC Press, UK, 2005.
+@incollection{frias2005,
+  chapter = {Model building},
+  pages = {144-1-144-16},
+  title = {Handbook of Food Science, Technology and Engineering},
+  publisher = {CRC Press, UK},
+  year = {2005},
+  editor = {Y.H. Hui},
+  author = {Frias, J.M. and Cunha, L.M.}
+}
+[15]	T.M. Gass and A.P. Robinson. A hierarchical analysis of stand structure, composition, and burn patterns as indicators of stand age in an Engelmann spruce subalpine fir forest. Canadian Journal of Forest Research, 37(5):884-894, 2007.
+@article{gass2007has,
+  title = {{A hierarchical analysis of stand structure, composition,
+ and
+ burn patterns as indicators of stand age in an Engelmann spruce
+ subalpine fir forest}},
+  author = {Gass, T.M. and Robinson, A.P.},
+  journal = {Canadian Journal of Forest Research},
+  volume = {37},
+  number = {5},
+  key = {nlme, p-values},
+  pages = {884--894},
+  year = {2007},
+  publisher = {NRC Research Press}
+}
+[16]	M. Goldrick and M. Larson. Phonotactic probability influences speech production. Cognition, in press.
+@article{goldrickLarsonCognition,
+  author = {Goldrick, M. and Larson, M.},
+  title = {Phonotactic probability influences speech production},
+  journal = {Cognition},
+  year = {in press},
+  key = {phonotactic probability, speech errors, p-values},
+  url = {http://dx.doi.org/10.1016/j.cognition.2007.11.009}
+}
+[17]	S. Goldwater, D. Jurafsky, and C. Manning. Which words are hard to recognize? Prosodic, lexical, and disfluency factors that increase asr error rates. In Proceedings of the Association for Computational Linguistics, 2008.
+@inproceedings{sgwater08a,
+  author = {S. Goldwater and D. Jurafsky and C. Manning},
+  title = {Which words are hard to recognize? {P}rosodic, lexical, and
+disfluency factors that increase ASR error rates},
+  booktitle = {Proceedings of the Association for Computational Linguistics},
+  year = {2008}
+}
+[18]	L Gygax, C Mayer, H Schulze Westerath, Friedli K, and B Wechsler. On-farm assessment of the lying behaviour of finishing bulls kept in housing systems with different floor quality. Animal Welfare, 16:205-208, 2007.
+@article{Gyg:07bE,
+  author = {Gygax, L and Mayer, C and Schulze Westerath, H and Friedli K and Wechsler, B},
+  title = {On-farm assessment of the lying behaviour of finishing bulls kept in housing systems with different floor quality},
+  journal = {Animal Welfare},
+  year = {2007},
+  volume = {16},
+  pages = {205-208}
+}
+[19]	L Gygax, H Schulze Westerath, J Kuhlicke, B Wechsler, and C Mayer. Assessing cubicle dimensions for finishing bulls based on animal behaviour and cleanliness. Animal Science, 81:423-430, 2005.
+@article{Gyg:05E,
+  author = {Gygax, L and Schulze Westerath, H and Kuhlicke, J and Wechsler, B and Mayer, C},
+  title = {Assessing Cubicle Dimensions for Finishing Bulls Based on Animal Behaviour and Cleanliness},
+  journal = {Animal Science},
+  year = {2005},
+  volume = {81},
+  pages = {423--430}
+}
+[20]	Lorenz Gygax, Isabelle Neuffer, Christine Kaufmann, Rudolf Hauser, and Beat Wechsler. Milk cortisol concentration in automatic milking systems compared with auto-tandem milking parlors. Journal of Dairy Science, 89:3447-3454, 2006.
+@article{Gyg:06aE,
+  author = {Gygax, Lorenz and Neuffer, Isabelle and Kaufmann, Christine and Hauser, Rudolf and Wechsler, Beat},
+  title = {Milk Cortisol Concentration in Automatic Milking Systems Compared with Auto-Tandem Milking Parlors},
+  journal = {Journal of Dairy Science},
+  year = {2006},
+  volume = {89},
+  pages = {3447--3454}
+}
+[21]	Lorenz Gygax, Isabelle Neuffer, Christine Kaufmann, Rudolf Hauser, and Beat Wechsler. Comparison of functional aspects in two automatic milking systems and auto-tandem milking parlors. Journal of Dairy Science, 90:4265-4274, 2007.
+@article{Gyg:07aE,
+  author = {Gygax, Lorenz and Neuffer, Isabelle and Kaufmann, Christine and Hauser, Rudolf and Wechsler, Beat},
+  title = {Comparison of Functional Aspects in Two Automatic Milking Systems and Auto-Tandem Milking Parlors},
+  journal = {Journal of Dairy Science},
+  year = {2007},
+  volume = {90},
+  pages = {4265--4274}
+}
+[22]	Lorenz Gygax, Isabelle Neuffer, Christine Kaufmann, Rudolf Hauser, and Beat Wechsler. Reslessness behaviour, heart rate and heart-rate variability of dairy cows milked in two types of automatic milking systems and auto-tandem milking parlours. Applied Animal Behaviour Science, 109:167-179, 2008.
+@article{Gyg:08E,
+  author = {Gygax, Lorenz and Neuffer, Isabelle and Kaufmann, Christine and Hauser, Rudolf and Wechsler, Beat},
+  title = {Reslessness Behaviour, Heart Rate and Heart-Rate Variability of Dairy Cows Milked in Two Types of Automatic Milking Systems and Auto-Tandem Milking Parlours},
+  journal = {Applied Animal Behaviour Science},
+  year = {2008},
+  volume = {109},
+  pages = {167--179}
+}
+[23]	Lorenz Gygax and Dusan Nosal. Contribution of vibration and noise during milking to the somatic cell count of milk. Journal of Dairy Science, 89:2499-2502, 2006.
+@article{Gyg:06E,
+  author = {Gygax, Lorenz and Nosal, Dusan},
+  title = {Contribution of Vibration and Noise during Milking to the Somatic Cell Count of Milk},
+  journal = {Journal of Dairy Science},
+  year = {2006},
+  volume = {89},
+  pages = {2499--2502}
+}
+[24]	Lorenz Gygax, Regula Siegwart, and Beat Wechlser. Effects of space allowance on the behaviour and cleanliness of finishing bulls kept in pens with fully slatted rubber coated flooring. Applied Animal Behaviour Science, 107:1-12, 2007.
+@article{Gyg:07bEa,
+  author = {Gygax, Lorenz and Siegwart, Regula and Wechlser, Beat},
+  title = {Effects of Space allowance on the Behaviour and Cleanliness of Finishing Bulls Kept in Pens with Fully Slatted Rubber Coated Flooring},
+  journal = {Applied Animal Behaviour Science},
+  year = {2007},
+  volume = {107},
+  pages = {1--12}
+}
+[25]	Helge Christiane Haufe, Lorenz Gygax, Beat Steiner, Katharina Friedli, Markus Stauffacher, and Beat Wechsler. Influence of floor type in the walking area of cubicle housing systems on the behaviour of dairy cows. Applied Animal Behaviour Science, 116:21-27, 2009.
+@article{Hau:09E,
+  author = {Haufe, Helge Christiane and Gygax, Lorenz and Steiner, Beat and Friedli, Katharina and Stauffacher, Markus and Wechsler, Beat},
+  title = {Influence of Floor Type in the Walking Area of Cubicle Housing Systems on the Behaviour of Dairy Cows},
+  journal = {Applied Animal Behaviour Science},
+  year = {2009},
+  volume = {116},
+  pages = {21--27}
+}
+[26]	E Hillmann, L Schrader, C Mayer, and L Gygax. Effects of weight, temperature and behaviour on the circadian rhythm of salivary cortisol in growing pigs. animal, 2:405-409, 2008.
+@article{Hil:08E,
+  author = {Hillmann, E and Schrader, L and Mayer, C and Gygax, L},
+  title = {Effects of Weight, Temperature and Behaviour on the Circadian Rhythm of Salivary Cortisol in Growing Pigs},
+  journal = {animal},
+  year = {2008},
+  volume = {2},
+  pages = {405--409}
+}
+[27]	Edna Hillmann, Claus Mayer, Lorenz Gygax, and Lars Schrader. Effects of space allowance on behavioural and adrenocortical reactions to elevated temperatures in fattening pigs. Landbauforschung Völkenrode, 55:255-260, 2005.
+@article{Hil:05E,
+  author = {Hillmann, Edna and Mayer, Claus and Gygax, Lorenz and Schrader, Lars},
+  title = {Effects of Space allowance on Behavioural and Adrenocortical Reactions to Elevated Temperatures in Fattening Pigs},
+  journal = {Landbauforschung V{\"{o}}lkenrode},
+  year = {2005},
+  volume = {55},
+  pages = {255--260}
+}
+[28]	Philip Hofmeister. Representational Complexity and Memory Retrieval in Language Comprehension. PhD thesis, Stanford University, 2007.
+@phdthesis{hofmeister2007,
+  title = {{Representational Complexity and Memory Retrieval in Language Comprehension}},
+  key = {no p-values, p-values},
+  author = {Hofmeister, Philip},
+  year = {2007},
+  school = {Stanford University}
+}
+[29]	N.J.B. Isaac and C. Carbone. Why are metabolic scaling exponents so controversial? Quantifying variance and testing hypotheses. Ecology Letters, 13(6):728-735, 2010.
+@article{isaac2010metabolic,
+  title = {{Why are metabolic scaling exponents so controversial? {Q}uantifying variance and testing hypotheses}},
+  author = {Isaac, N.J.B. and Carbone, C.},
+  journal = {Ecology Letters},
+  volume = {13},
+  number = {6},
+  pages = {728--735},
+  year = {2010},
+  publisher = {John Wiley \& Sons}
+}
+[30]	T. F. Jaeger. Categorical data analysis: Away from ANOVAs (transformation or not) and towards logit mixed models. Journal of Memory and Language, 2008.
+@article{JaegerJML08,
+  author = {T. F. Jaeger},
+  title = {Categorical Data Analysis: {A}way from {ANOVA}s (transformation or not) and towards Logit Mixed Models},
+  journal = {Journal of Memory and Language},
+  year = {2008}
+}
+[31]	Daniel Ezra Johnson. Stability and change along a dialect boundary: the low vowels of southeastern New England. PhD thesis, University of Pennsylvania, 2007.
+@phdthesis{ezrajohnson,
+  author = {Daniel Ezra Johnson},
+  title = {Stability and change along a dialect boundary: the low vowels of southeastern {N}ew {E}ngland},
+  school = {University of Pennsylvania},
+  year = {2007}
+}
+[32]	I. Kirkeby-Garstad, U. Wisloff, E. Skogvoll, T. Stolen, A.E. Tjonna, R. Stenseth, and O.F.M. Sellevold. The Marked Reduction in Mixed Venous Oxygen Saturation During Early Mobilization After Cardiac Surgery: The Effect of Posture or Exercise?, 2006.
+@misc{kirkebygarstad2006mrm,
+  title = {{The Marked Reduction in Mixed Venous Oxygen Saturation During Early Mobilization After Cardiac Surgery: The Effect of Posture or Exercise?}},
+  author = {Kirkeby-Garstad, I. and Wisloff, U. and Skogvoll, E. and Stolen, T. and Tjonna, A.E. and Stenseth, R. and Sellevold, O.F.M.},
+  journal = {Anesthesia \& Analgesia},
+  volume = {102},
+  number = {6},
+  pages = {1609--1616},
+  year = {2006},
+  publisher = {IARS}
+}
+[33]	R. Kliegl. Toward a Perceptual-Span Theory of Distributed Processing in Reading: A Reply to Rayner, Pollatsek, Drieghe, Slattery, and Reichle (2007). Journal of Experimental Psychology: General, 136(3):530, 2007.
+@article{kliegl2007tps,
+  title = {{Toward a Perceptual-Span Theory of Distributed Processing in Reading: A Reply to Rayner, Pollatsek, Drieghe, Slattery, and Reichle (2007)}},
+  author = {Kliegl, R.},
+  journal = {Journal of Experimental Psychology: General},
+  volume = {136},
+  number = {3},
+  pages = {530},
+  year = {2007},
+  publisher = {APA AMERICAN PSYCHOLOGICAL ASSOCIATION}
+}
+[34]	R. Kliegl. Towards a perceptual-span theory of distributed processing in reading: A reply to Rayner, Pollatsek, Drieghe, Slattery, & Reichle (2007). Journal of Experimental Psychology: General, 138:530-537, 2007.
+@article{Kliegl2007,
+  title = {Towards a perceptual-span theory of distributed processing in reading: {A} reply to {Rayner, Pollatsek, Drieghe, Slattery, \& Reichle (2007)}},
+  author = {Kliegl, R.},
+  journal = {Journal of Experimental Psychology: General},
+  volume = {138},
+  pages = {530--537},
+  year = {2007}
+}
+[35]	R. Kliegl, S. Risse, and J. Laubrock. Preview benefit and parafoveal-on-foveal effects from word n+2. Journal of Experimental Psychology: Human Perception and Performance, 33:1250-1255, 2007.
+@article{KlieglRisseLaubrock2007,
+  title = {Preview benefit and parafoveal-on-foveal effects from word n+2},
+  author = {Kliegl, R. and Risse, S. and Laubrock, J.},
+  journal = {Journal of Experimental Psychology: Human Perception and Performance},
+  volume = {33},
+  pages = {1250--1255},
+  year = {2007}
+}
+[36]	R. Kliegl, M. Rolfs, J. Laubrock, and R. Engbert. Microsaccadic modulation of response times in spatial attention tasks. Psychological Research, in press.
+@article{klieglrolfslaubrockengbertPS,
+  author = {Kliegl, R. and Rolfs, M. and Laubrock, J. and Engbert, R.},
+  title = {Microsaccadic modulation of response times in spatial attention tasks},
+  journal = {Psychological Research},
+  year = {in press},
+  optkey = {},
+  optvolume = {},
+  optnumber = {},
+  optpages = {},
+  optmonth = {},
+  optnote = {},
+  optannote = {}
+}
+[37]	A. Koyama, K. Kavanagh, and A. Robinson. Marine nitrogen in central Idaho riparian forests: evidence from stable isotopes. Canadian Journal of Fisheries and Aquatic Sciences, 62(3):518-526, 2005.
+@article{koyama2005mnc,
+  title = {{Marine nitrogen in central Idaho riparian forests: evidence
+ from stable isotopes}},
+  author = {Koyama, A. and Kavanagh, K. and Robinson, A.},
+  journal = {Canadian Journal of Fisheries and Aquatic Sciences},
+  volume = {62},
+  number = {3},
+  pages = {518--526},
+  key = {nlme, p-values},
+  year = {2005},
+  publisher = {National Research Council of Canada Ottawa, Canada}
+}
+[38]	V. Kuperman, R. Bertram, and R. H. Baayen. Morphological dynamics in compound processing. In press, Language and Cognitive Processes, 2008.
+@article{KupermanBertramBaayen2007,
+  author = {Kuperman, V. and Bertram, R. and Baayen, R. H.},
+  title = {Morphological dynamics in compound processing},
+  journal = {In press, Language and Cognitive Processes},
+  year = {2008}
+}
+[39]	J. Laubrock, R. Engbert, M. Rolfs, and R. Kliegl. Microsaccades are an index of covert attention. Commentary on horowitz, fine, fencsik, yurgenson, and wolfe (2007). Psychological Science, 18:364-366, 2007.
+@article{LaubrockEngbertRolfsKliegl2007,
+  title = {Microsaccades are an index of covert attention. {C}ommentary on Horowitz, Fine, Fencsik, Yurgenson, and Wolfe (2007)},
+  author = {Laubrock, J. and Engbert, R. and Rolfs, M. and Kliegl, R.},
+  journal = {Psychological Science},
+  volume = {18},
+  pages = {364--366},
+  year = {2007}
+}
+[40]	Jochen Laubrock, Ralf Engbert, and Reinhold Kliegl. Fixational eye movements predict the perceived direction of ambiguous apparent motion. Journal of Vision, 8(14:13):1-17, 10 2008.
+@article{LaubrockJochen2008,
+  author = {Laubrock, Jochen and Engbert, Ralf and Kliegl, Reinhold},
+  title = {{Fixational eye movements predict the perceived direction of ambiguous apparent motion}},
+  journal = {Journal of Vision},
+  issn = {1534-7362},
+  volume = {8},
+  number = {14:13},
+  pages = {1-17},
+  year = {2008},
+  month = {10},
+  abstract = {Neuronal activity in area LIP is correlated with the perceived direction of ambiguous apparent motion (Z. M. Williams, J. C. Elfar, E. N. Eskandar, L. J. Toth, & J. A. Assad, 2003). Here we show that a similar correlation exists for small eye movements made during fixation. A moving dot grid with superimposed fixation point was presented through an aperture. In a motion discrimination task, unambiguous motion was compared with ambiguous motion obtained by shifting the grid by half of the dot distance. In three experiments we show that (a) microsaccadic inhibition, i.e., a drop in microsaccade frequency precedes reports of perceptual flips, (b) microsaccadic inhibition does not accompany simple response changes, and (c) the direction of microsaccades occurring before motion onset biases the subsequent perception of ambiguous motion. We conclude that microsaccades provide a signal on which perceptual judgments rely in the absence of objective disambiguating stimulus information.},
+  keywords = {eye movements, awareness, attention, fixation, apparent motion, bistable perception, ambiguous figures, flicker, stroboscopic motion, optokinetic nystagmus},
+  url = {http://journalofvision.org/8/14/13/Laubrock-2008-jov-8-14-13.pdf}
+}
+[41]	Y. Lee and M. Goldrick. The emergence of sub-syllabic representations. Journal of Memory and Language, in press.
+@article{leeGoldrickJML,
+  author = {Lee, Y. and Goldrick, M.},
+  title = {The emergence of sub-syllabic representations},
+  journal = {Journal of Memory and Language},
+  year = {in press},
+  key = {sub-syllabic constituents, short-term memory tests, phonotactic probability, p-values},
+  url = {http://ling.northwestern.edu/~goldrick/leeGoldrick.pdf}
+}
+[42]	S. P. Luque, E. H. Miller, J. P. Y. Arnould, M. Chambellant, and C. Guinet. Ontogeny of body size and shape of antarctic and subantarctic fur seals. Can. J. Zool., 85:1275-1285, 2007.
+@article{7322,
+  author = {Luque, S. P. and Miller, E. H. and Arnould, J. P. Y. and Chambellant,
+       M. and Guinet, C.},
+  title = {Ontogeny of body size and shape of Antarctic and subantarctic fur
+       seals},
+  journal = {Can. J. Zool.},
+  key = {nlme},
+  year = {2007},
+  volume = {85},
+  pages = {1275-1285}
+}
+[43]	George L. Malcolm, Linda J. Lanyon, Andrew J. B. Fugard, and Jason J. S. Barton. Scan patterns during the processing of facial expression versus identity: An exploration of task-driven and stimulus-driven effects. Journal of Vision, 8(8):1-9, 6 2008.
+@article{MalcolmEtAl2008,
+  author = {Malcolm, George L. and Lanyon, Linda J. and Fugard, Andrew J. B. and Barton, Jason J. S.},
+  title = {{Scan patterns during the processing of facial expression versus identity: An exploration of task-driven and stimulus-driven effects}},
+  journal = {Journal of Vision},
+  issn = {1534-7362},
+  volume = {8},
+  number = {8},
+  pages = {1--9},
+  year = {2008},
+  month = {6},
+  abstract = {Perceptual studies suggest that processing facial identity emphasizes upper-face information, whereas processing expressions of anger or happiness emphasizes the lower-face. The two goals of the present study were to determine (a) if the distributions of eye fixations reflect these upper/lower-face biases, and (b) whether this bias is task- or stimulus-driven. We presented a target face followed by a probe pair of morphed faces, neither of which was identical to the target. Subjects judged which of the pair was more similar to the target face while eye movements were recorded. In Experiment 1 the probe pair always differed from each other in both identity and expression on each trial. In one block subjects judged which probe face was more similar to the target face in identity, and in a second block subjects judged which probe face was more similar to the target face in expression. In Experiment 2 the two probe faces differed in either expression or identity, but not both. Subjects were not informed which dimension differed, but simply asked to judge which probe face was more similar to the target face. We found that subjects scanned the upper-face more than the lower-face during the identity task but the lower-face more than the upper-face during the expression task in Experiment 1 (task-driven effects), with significantly less variation in bias in Experiment 2 (stimulus-driven effects). We conclude that fixations correlate with regional variations of diagnostic information in different processing tasks, but that these reflect top-down task-driven guidance of information acquisition more than stimulus-driven effects.},
+  keywords = {face expression, face identity, scanpath, fixation},
+  url = {http://journalofvision.org/8/8/2/}
+}
+[44]	P. Milin, V. Kuperman, A. Kostić, and R.H. Baayen. Words and paradigms bit by bit: An information-theoretic approach to the processing of inflection and derivation. In J.P. Blevins and J. Blevins, editors, Analogy in Grammar: Form and Acquisition. Oxford: Oxford University Press, in press.
+@incollection{Milinetal2008,
+  author = {Milin, P. and Kuperman, V. and Kosti\'{c}, A. and Baayen, R.H.},
+  title = {Words and paradigms bit by bit: {A}n information-theoretic approach to the processing of inflection and derivation},
+  booktitle = {Analogy in {G}rammar: {F}orm and {A}cquisition},
+  publisher = {Oxford: Oxford University Press},
+  year = {in press},
+  pages = {},
+  editor = {J.P. Blevins and Blevins, J.}
+}
+[45]	D. Mirman, J.A. Dixon, and J. S. Magnuson. Statistical and computational models of the visual world paradigm: Growth curves and individual differences. Journal of Memory and Language, 2008.
+@article{MirmanDixonMagnuson2008,
+  author = {Mirman, D. and Dixon, J.A. and Magnuson, J. S.},
+  title = {Statistical and computational models of the visual world
+paradigm: Growth curves and individual differences.},
+  journal = {Journal of Memory and Language},
+  url = {doi:10.1016/j.jml.2007.11.006},
+  year = {2008}
+}
+[46]	D. Mirman, J. S. Magnuson, K. Graf Estes, and J.A. Dixon. The link between statistical segmentation and word learning in adults. Cognition, 2008.
+@article{MirmanMagnusonGrafEstesDixon2008,
+  author = {Mirman, D. and Magnuson, J. S. and Graf Estes, K. and Dixon, J.A.},
+  title = {The link between statistical segmentation and word
+learning in adults},
+  journal = {Cognition},
+  url = {doi:10.1016/j.cognition.2008.02.003},
+  year = {2008}
+}
+[47]	D. Mohapatra, J.M. Frias, F.A.R. Oliveira, Z.M. Bira, and Kerry J. Development and validation of a model to predict enzymatic activity during storage of cultivated mushrooms (Agaricus bisporus spp.). Journal of Food Engineering, 86:39-48, 2008.
+@article{mohapatra2008,
+  title = {{Development and validation of a model to predict enzymatic
+activity during storage of cultivated mushrooms (Agaricus bisporus spp.)}},
+  author = {Mohapatra , D. and Frias, J.M. and Oliveira, F.A.R. and Bira, Z.M. and
+Kerry J. },
+  journal = {Journal of Food Engineering},
+  volume = {86},
+  key = {Non-linear mixed effect model; Mushroom; Polyphenol oxidase;
+Peroxidase; Storage; Temperature},
+  pages = {39--48},
+  year = {2008}
+}
+[48]	H. J. Möller, M. Riedel, M. Jäger, F. Wickelmaier, W. Maier, K. U. Kühn, G. Buchkremer, I. Heuser, J. Klosterkötter, M. Gastpar, D. F. Braus, R. Schlösser, F. Schneider, C. Ohmann, M. Riesbeck, and W. Gaebel. Short-term treatment with risperidone or haloperidol in first-episode schizophrenia: 8-week results of a randomized controlled trial within the German Research Network on Schizophrenia. International Journal of Neuropsychopharmacology, 11:985-997, 2008.
+@article{MoellerRiedel08,
+  author = {M\"oller, H. J. and Riedel, M. and J\"ager, M. and Wickelmaier, F. and Maier, W. and K\"uhn, K. U. and Buchkremer, G. and Heuser, I. and Klosterk\"otter, J. and Gastpar, M. and Braus, D. F. and Schl\"osser, R. and Schneider, F. and Ohmann, C. and Riesbeck, M. and Gaebel, W.},
+  title = {{S}hort-term treatment with risperidone or haloperidol in first-episode schizophrenia: 8-week results of a randomized controlled trial within the {G}erman {R}esearch {N}etwork on {S}chizophrenia},
+  journal = {International Journal of Neuropsychopharmacology},
+  year = {2008},
+  volume = {11},
+  pages = {985--997}
+}
+[49]	J. Myers. Minijudge: Software for small-scale experimental syntax. International Journal of Computational Linguistics and Chinese Language Processing, 12(2):175-194, 2007.
+@article{myers07,
+  author = {Myers, J.},
+  title = {MiniJudge: {S}oftware for small-scale experimental syntax},
+  journal = {International Journal of Computational Linguistics and Chinese Language Processing},
+  year = {2007},
+  key = {experimental syntax, acceptability judgments, morphology, Chinese},
+  volume = {12},
+  number = {2},
+  pages = {175--194},
+  optmonth = {},
+  optnote = {},
+  optannote = {},
+  url = {http://www.ccunix.ccu.edu.tw/~lngproc/Myers-CLCLP.pdf}
+}
+[50]	Gesa Neisen, Beat Wechsler, and Lorenz Gygax. Choice of scan-sampling intervals - an example with quantifying neighbours in dairy cows. Applied Animal Behaviour Science, 116:134-140, 2009.
+@article{Nei:09E,
+  author = {Neisen, Gesa and Wechsler, Beat and Gygax, Lorenz},
+  title = {Choice of Scan-Sampling Intervals --- An Example with quantifying Neighbours in Dairy Cows},
+  journal = {Applied Animal Behaviour Science},
+  year = {2009},
+  volume = {116},
+  pages = {134--140}
+}
+[51]	Sieb G. Nooteboom and Hugo Quené. Self-monitoring and feedback: a new attempt to find the main cause of lexical bias in phonological speech errors. Journal of Memory and Language, 58(3):837-861, 2008.
+@article{NQ08a,
+  author = {Nooteboom, Sieb G. and Quen{\'e}, Hugo},
+  title = {Self-monitoring and feedback: a new attempt to find the main cause of lexical bias in phonological speech errors},
+  journal = {Journal of Memory and Language},
+  volume = {58},
+  number = {3},
+  pages = {837--861},
+  year = {2008},
+  url = {doi:10.1016/j.jml.2007.05.003}
+}
+[52]	K. Oberauer and R. Kliegl. A formal model of capacity limits in working memory. Journal of Memory and Language, 55:601-626, 2006.
+@article{OberauerKliegl2006,
+  title = {A formal model of capacity limits in working memory},
+  author = {Oberauer, K. and Kliegl, R.},
+  journal = {Journal of Memory and Language},
+  volume = {55},
+  pages = {601--626},
+  year = {2006}
+}
+[53]	Klaus Oberauer and Reinhold Kliegl. A formal model of capacity limts in working memory. Journal of Memory and Language, 2006.
+@article{oberauerkliegl06,
+  author = {Klaus Oberauer and Reinhold Kliegl},
+  title = {A formal model of capacity limts in working memory},
+  journal = {Journal of Memory and Language},
+  year = {2006},
+  optkey = {},
+  optvolume = {},
+  optnumber = {},
+  optpages = {},
+  optmonth = {},
+  optnote = {},
+  optannote = {}
+}
+[54]	John Odden, Ivar Herfindal, John D.C. Linnell, and Reidar Andersen. Vulnerability of domestic sheep to lynx depredation in relation to roe deer density. Journal of Wildlife Management, 72(1):276-282, 2008.
+@article{oddenetal08,
+  author = {Odden, John and Herfindal, Ivar and Linnell, John D.C. and Andersen, Reidar},
+  title = {Vulnerability of domestic sheep to lynx depredation in relation to roe deer density},
+  journal = {Journal of Wildlife Management},
+  volume = {72},
+  number = {1},
+  pages = {276-282},
+  year = {2008}
+}
+[55]	A.L. Pocewicz, P. Gessler, and A.P. Robinson. The relationship between effective plant area index and Landsat spectral response across elevation, solar insolation, and spatial scales in a northern Idaho forest. Can. J. For. Res, 34, 2004.
+@article{pocewicz2004rbe,
+  title = {{The relationship between effective plant area index and
+ Landsat spectral response across elevation, solar insolation, and
+ spatial scales in a northern Idaho forest}},
+  author = {Pocewicz, A.L. and Gessler, P. and Robinson, A.P.},
+  journal = {Can. J. For. Res},
+  key = {nlme, p-values},
+  volume = {34},
+  year = {2004}
+}
+[56]	Hugo Quené and Huub Van den Bergh. Examples of mixed-effects modeling with crossed random effects and with binomial data. Journal of Memory and Language, in press.
+@article{QB08,
+  author = {Quen{\'e}, Hugo and {Van den Bergh}, Huub},
+  title = {Examples of mixed-effects modeling with crossed random effects and with binomial data},
+  journal = {Journal of Memory and Language},
+  year = {in press}
+}
+[57]	N Reefmann, F Bütikofer Kaszàs, B Wechsler, and L Gygax. Ear and tail postures as indicators of emotional valence in sheep. Applied Animal Behaviour Science, tba:doi:10.1016/j.applanim.2009.02.013, 2009.
+@article{Ree:09E,
+  author = {Reefmann, N and B{\"{u}}tikofer Kasz{\`{a}}s, F and Wechsler, B and Gygax, L},
+  title = {Ear and tail postures as indicators of emotional valence in sheep},
+  journal = {Applied Animal Behaviour Science},
+  year = {2009},
+  volume = {tba},
+  pages = {doi:10.1016/j.applanim.2009.02.013}
+}
+[58]	A. Reimers, E. Skogvoll, J.K. Sund, and O. Spigset. Drug interactions between lamotrigine and psychoactive drugs: evidence from a therapeutic drug monitoring service. J Clin Psychopharmacol, 25(4):342-8, 2005.
+@article{reimers2005dib,
+  title = {{Drug interactions between lamotrigine and psychoactive drugs: evidence from a therapeutic drug monitoring service}},
+  author = {Reimers, A. and Skogvoll, E. and Sund, J.K. and Spigset, O.},
+  journal = {J Clin Psychopharmacol},
+  volume = {25},
+  number = {4},
+  pages = {342--8},
+  year = {2005}
+}
+[59]	A. Reimers, E. Skogvoll, J.K. Sund, and O. Spigset. Lamotrigine in children and adolescents: the impact of age on its serum concentrations and on the extent of drug interactions. European Journal of Clinical Pharmacology, 63(7):687-692, 2007.
+@article{reimers2007lca,
+  title = {{Lamotrigine in children and adolescents: the impact of age on its serum concentrations and on the extent of drug interactions}},
+  author = {Reimers, A. and Skogvoll, E. and Sund, J.K. and Spigset, O.},
+  journal = {European Journal of Clinical Pharmacology},
+  volume = {63},
+  number = {7},
+  pages = {687--692},
+  year = {2007},
+  publisher = {Springer}
+}
+[60]	D. Rico, A.B. Martin-Diana, C. Bary-Ryan, G.T.M. Henehan, and J.M. Frias. Simultaneous Modelling of the Thermal Degradation Kinetics of Pectin Methylesterase in Lettuce (Lactuca sativa L.) and Carrot (Daucus carota L.) Extracts: Analysis of Seasonal Variation and Tissue Type. Biosci. Biotechnol. Biochem., 71,:2383-2392, 2007.
+@article{rico2007,
+  title = {{Simultaneous Modelling of the Thermal Degradation Kinetics of
+Pectin Methylesterase in Lettuce (Lactuca sativa L.) and Carrot (Daucus
+carota L.) Extracts: Analysis of Seasonal Variation and Tissue Type}},
+  author = {Rico, D. and Martin-Diana, A.B. and Bary-Ryan,C. and Henehan, G.T.M. and Frias, J.M.},
+  journal = {Biosci. Biotechnol. Biochem.},
+  volume = {71,},
+  key = {lettuce (Lactuca sativa L.); carrot (Daucus carota L.); pectin
+methylesterase; mixed-effects modelling; random effect},
+  pages = {2383--2392},
+  year = {2007}
+}
+[61]	Brian Riordan. There's two ways to say it: Modeling nonprestige there's. Corpus Linguistics and Linguistic Theory, 3(2):233-279, December 2007.
+@article{Riordan2007,
+  author = {Riordan, Brian},
+  citeulike-article-id = {2639770},
+  journal = {Corpus Linguistics and Linguistic Theory},
+  month = {December},
+  number = {2},
+  pages = {233-279},
+  title = {There's two ways to say it: Modeling nonprestige there's},
+  url = {http://www.atypon-link.com/WDG/doi/abs/10.1515/CLLT.2007.013},
+  volume = {3},
+  year = {2007}
+}
+[62]	A. Robinson. Preserving correlation while modelling diameter distributions. Can. J. For. Res, 34(1):221-232, 2004.
+@article{robinson2004pcw,
+  title = {{Preserving correlation while modelling diameter distributions}},
+  author = {Robinson, A.},
+  journal = {Can. J. For. Res},
+  volume = {34},
+  number = {1},
+  key = {nlme, no p-values},
+  pages = {221--232},
+  year = {2004}
+}
+[63]	A.P. Robinson and W.R. Wykoff. Imputing missing height measures using a mixed-effects modeling strategy. Canadian Journal of Forest Research/Revue Canadienne de Recherche Forestiere, 34(12):2492-2500, 2004.
+@article{robinson2004imh,
+  title = {{Imputing missing height measures using a mixed-effects modeling strategy}},
+  author = {Robinson, A.P. and Wykoff, W.R.},
+  journal = {Canadian Journal of Forest Research/Revue Canadienne de
+ Recherche Forestiere},
+  volume = {34},
+  number = {12},
+  key = {nlme, no p-values},
+  pages = {2492--2500},
+  year = {2004}
+}
+[64]	Martin Rolfs, Jochen Laubrock, and Reinhold Kliegl. Microsaccade- induced prolongation of saccadic latencies depends on microsaccade amplitude. Journal of Eye Movement Research, 1(3):1-8, 2008.
+@article{Rolfs:2008sf,
+  abstract = {Fixations consist of small movements including microsaccades, i.e., rapid flicks in eye position that replace the retinal image by up to 1 degree of visual angle. Recently, we
+showed in a delayed-saccade task (1) that the rate of microsaccades decreased in the course of saccade preparation and (2) that microsaccades occurring around the time of a go signal were associated with prolonged saccade latencies (Rolfs et al., 2006). A re-analysis of the same data set revealed a strong dependence of these findings on microsaccade amplitude. First, microsaccade amplitude dropped to a minimum just before the generation of a saccade. Second, the delay of response saccades was
+a function of microsaccade amplitude: Microsaccades with larger amplitudes were followed by longer response latencies. These finding were predicted by a recently proposed model that attributes microsaccade generation to fixation-related activity in a saccadic motor map that is in competition with the generation of large saccades (Rolfs et al., 2008). We propose, therefore, that microsaccade statistics provide a behavioral correlate of fixation-related activity in the oculomotor system.},
+  author = {Rolfs, Martin and Laubrock, Jochen and Kliegl, Reinhold},
+  date-added = {2008-11-27 14:12:40 +0100},
+  date-modified = {2008-11-28 14:46:35 +0100},
+  url = {http://www.jemr.org/download/pictures/45/zi9y2ja46vgdn99a7rckvtk6k0zul1/rolfs_2008_jemr.pdf},
+  journal = {Journal of Eye Movement Research},
+  number = {3},
+  pages = {1--8},
+  title = {Microsaccade- induced prolongation of saccadic latencies depends on microsaccade amplitude},
+  volume = {1},
+  year = {2008}
+}
+[65]	B Roth, N M Keil, L Gygax, and E Hillmann. Temporal distribution of sucking behaviour in dairy calves and influence of energy balance. Applied Animal Behaviour Science, tba:tba, accepted.
+@article{Rot:09aE,
+  author = {Roth, B and Keil, N M and Gygax, L and Hillmann, E},
+  title = {Temporal distribution of sucking behaviour in dairy calves and influence of energy balance},
+  journal = {Applied Animal Behaviour Science},
+  year = {accepted},
+  volume = {tba},
+  pages = {tba}
+}
+[66]	B A Roth, N M Keil, L Gygax, and E Hillmann. Influence of weaning method on health status and rumen development in dairy calves. Journal of Dairy Science, 92:645-656, 2009.
+@article{Rot:09E,
+  author = {Roth, B A and Keil, N M and Gygax, L and Hillmann, E},
+  title = {Influence of Weaning Method on Health Status and Rumen Development in Dairy Calves},
+  journal = {Journal of Dairy Science},
+  year = {2009},
+  volume = {92},
+  pages = {645--656}
+}
+[67]	C.E. Rutledge, A.P. Robinson, and S.D. Eigenbrode. Effects of a simple plant morphological mutation on the arthropod community and the impacts of predators on a principal insect herbivore. Oecologia, 135(1):39-50, 2003.
+@article{rutledge2003esp,
+  title = {{Effects of a simple plant morphological mutation on the
+ arthropod community and the impacts of predators on a principal
+ insect herbivore}},
+  author = {Rutledge, C.E. and Robinson, A.P. and Eigenbrode, S.D.},
+  journal = {Oecologia},
+  volume = {135},
+  number = {1},
+  key = {nlme, p-values},
+  pages = {39--50},
+  year = {2003},
+  publisher = {Springer}
+}
+[68]	C. Salas, A.R. Stage, and A.P. Robinson. Modeling Effects of Overstory Density and Competing Vegetation on Tree Height Growth. Forest Science, 54(1):107-122, 2008.
+@article{salas2008meo,
+  title = {{Modeling Effects of Overstory Density and Competing
+ Vegetation on Tree Height Growth}},
+  author = {Salas, C. and Stage, A.R. and Robinson, A.P.},
+  journal = {Forest Science},
+  volume = {54},
+  number = {1},
+  pages = {107--122},
+  year = {2008},
+  key = {nlme, p-values},
+  publisher = {Society of American Foresters}
+}
+[69]	Pascal Savary, Lorenz Gygax, Beat Wechsler, and Rudolf Hauser. Effect of a synthetic plate in the lying area on lying behaviour, degree of fouling and skin lesions at the leg joints of finishing pigs. Applied Animal Behaviour Science, 118:20-27, 2009.
+@article{Sav:09E,
+  author = {Savary, Pascal and Gygax, Lorenz and Wechsler, Beat and Hauser, Rudolf},
+  title = {Effect of a Synthetic Plate in the Lying Area on Lying Behaviour, Degree of Fouling and Skin Lesions at the Leg Joints of Finishing Pigs},
+  journal = {Applied Animal Behaviour Science},
+  year = {2009},
+  volume = {118},
+  pages = {20--27}
+}
+[70]	Pascal Savary, Rudolf Hauser, Pete Ossent, Thomas Jungbluth, Lorenz Gygax, and Beat Wechsler. Eignung der Thermographie zur Erfassung von Entzündungen an den Gliedmassen von Mastschweinen. Deutsche tierärztliche Wochenschrift, 115:324-329, 2008.
+@article{Sav:08a,
+  author = {Savary, Pascal and Hauser, Rudolf and Ossent, Pete and Jungbluth, Thomas and Gygax, Lorenz and Wechsler, Beat},
+  title = {Eignung der {T}hermographie zur {E}rfassung von {E}ntz{\"{u}}ndungen an den {G}liedmassen von {M}astschweinen},
+  journal = {Deutsche tier{\"{a}}rztliche Wochenschrift},
+  year = {2008},
+  volume = {115},
+  pages = {324--329}
+}
+[71]	H Schulze Westerath, L Gygax, C Mayer, and B Wechsler. Leg lesions and cleanliness of finishing bulls kept in housing systems with different lying area surfaces. The Veterinary Journal, 174:77-85, 2007.
+@article{Wes:07E,
+  author = {Schulze Westerath, H and Gygax, L and Mayer, C and Wechsler, B},
+  title = {Leg Lesions and Cleanliness of Finishing Bulls Kept in Housing Systems with Different Lying Area Surfaces},
+  journal = {The Veterinary Journal},
+  year = {2007},
+  volume = {174},
+  pages = {77--85}
+}
+[72]	Heike Schulze Westerath, Tim Meier, Lorenz Gygax, Beat Wechsler, and Claus Mayer. Effects of the inclination of the lying area in cubicles on the behaivour and dirtiness of fattening bulls. Applied Animal Behaviour Science, 97:122-133, 2006.
+@article{Weh:06E,
+  author = {Schulze Westerath, Heike and Meier, Tim and Gygax, Lorenz and Wechsler, Beat and Mayer, Claus},
+  title = {Effects of the Inclination of the Lying Area in Cubicles on the Behaivour and Dirtiness of Fattening Bulls},
+  journal = {Applied Animal Behaviour Science},
+  year = {2006},
+  volume = {97},
+  pages = {122--133}
+}
+[73]	L. R. Slevc. Saying what's on your mind: Working memory effects on syntactic production. PhD thesis, University of California, San Diego, 2007.
+@phdthesis{slevc07,
+  author = {Slevc, L. R.},
+  title = {Saying what's on your mind: Working memory effects on syntactic production},
+  school = {University of California, San Diego},
+  year = {2007}
+}
+[74]	J.J. Smith, M. Amarello, and M. Goode. Seasonal growth of free-ranging Gila monsters (Heloderma suspectum) in a Southern Arizona population. Journal of Herpetology, 44(3):484-488, 2010.
+@article{SmithAmarelloGood,
+  title = {Seasonal Growth of Free-Ranging {G}ila Monsters ({H}eloderma suspectum) in a {Southern Arizona} Population},
+  journal = {Journal of Herpetology},
+  volume = {44},
+  number = {3},
+  pages = {484-488},
+  year = {2010},
+  author = {J.J. Smith and M. Amarello and M. Goode}
+}
+[75]	M. H. H. Stevens, M. Sanchez, J. Lee, and S. E. Finkel. Diversification rates increase with population size and resource concentration in an unstructured habitat. Genetics, 177:2243-2250, 2007.
+@article{Stevens:2007bv,
+  author = {Stevens, M. H. H. and Sanchez, M. and Lee, J. and Finkel, S. E.},
+  journal = {Genetics},
+  pages = {2243--2250},
+  title = {Diversification rates increase with population size and resource concentration in an unstructured habitat},
+  volume = {177},
+  year = {2007}
+}
+[76]	Tanja Thio, Lorenz Gygax, Katharina Friedli, Claus Mayer, and Pete Ossent. Einfluss von gummimodifizierten Spaltenböden auf die Klauengesundheit von Mastbullen. Tierärztliche Praxis, 33:77-84, 2005.
+@article{Thi:05,
+  author = {Thio, Tanja and Gygax, Lorenz and Friedli, Katharina and Mayer, Claus and Ossent, Pete},
+  title = {Einfluss von gummimodifizierten {S}paltenb{\"{o}}den auf die {K}lauengesundheit von {M}astbullen},
+  journal = {Tier{\"{a}}rztliche Praxis},
+  year = {2005},
+  volume = {33},
+  pages = {77--84}
+}
+[77]	Tessa van der Hammen, André M. de Roos, Maurice W. Sabelis, and Arne Janssen. Order of invasion affects the spatial distribution of a reciprocal intraguild predator. Oecologia, 163(1):79â€“89, 2010.
+@article{Hammen_et_al._2010,
+  author = {van der Hammen, Tessa and de Roos, Andr{\'e} M.  and
+                 Sabelis, Maurice W.  and Janssen, Arne},
+  title = {Order of invasion affects the spatial distribution
+                 of a reciprocal intraguild predator},
+  journal = {Oecologia},
+  year = 2010,
+  volume = 163,
+  number = 1,
+  pages = {79â€“89},
+  doi = {10.1007/s00442-010-1575-7}
+}
+[78]	Shravan Vasishth. Working memory in sentence comprehension: Processing Hindi center embeddings. Garland Press, New York, 2003. Published in the Garland series Outstanding Dissertations in Linguistics, edited by Laurence Horn.
+@book{vasishth:phdbook,
+  author = {Shravan Vasishth},
+  title = {Working memory in sentence comprehension: {P}rocessing {H}indi center embeddings},
+  note = {Published in the Garland series {Outstanding Dissertations in Linguistics, edited by Laurence Horn}},
+  url = {http://www.amazon.com/exec/obidos/tg/detail/-/0415967619/qid=1114926528/sr=1-2/ref=sr_1_2/103-2068405-0362240?v=glance&s=books},
+  publisher = {Garland Press},
+  year = {2003},
+  address = {New York}
+}
+[79]	Shravan Vasishth, Sven Bruessow, Richard L. Lewis, and Heiner Drenhaus. Processing polarity: How the ungrammatical intrudes on the grammatical. Cognitive Science, 32(4), 2008.
+@article{VBLD07,
+  author = {Shravan Vasishth and Sven Bruessow and Richard L. Lewis and Heiner Drenhaus},
+  title = {Processing Polarity: {H}ow the ungrammatical intrudes on the grammatical},
+  journal = {Cognitive Science},
+  year = {2008},
+  optkey = {},
+  volume = {32},
+  number = {4},
+  optpages = {},
+  optmonth = {},
+  optnote = {},
+  optannote = {}
+}
+[80]	Shravan Vasishth and Richard L. Lewis. Argument-head distance and processing complexity: Explaining both locality and antilocality effects. Language, 82, December 2006.
+@article{vasishthlewisLanguage06,
+  author = {Shravan Vasishth and Richard L. Lewis},
+  title = {Argument-head distance and processing complexity: {E}xplaining both locality and antilocality effects},
+  journal = {Language},
+  optkey = {},
+  volume = {82},
+  numberr = {4},
+  month = {December},
+  year = {2006},
+  optannote = {},
+  url = {http://www.ling.uni-potsdam.de/~vasishth/Papers/LangVasLewFinal.pdf}
+}
+This file was generated by bibtex2html 1.92.
