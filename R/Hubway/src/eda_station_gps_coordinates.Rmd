@@ -88,6 +88,7 @@ boston <- 'boston'
 qmap(boston, zoom = 14)
 ```
 ```{r}
+library(plotly)
 BostonMap <- qmap("boston", zoom = 12, color = "bw", legend = "topleft")
 BostonMap +
    # geom_point(aes(x = Longitude, y = Latitude, colour = `# of Docks`, size = `# of Docks`),
@@ -102,6 +103,16 @@ BostonMap +
               shape = 21) +
   # theme(legend.position="none")
   theme(legend.position="bottom")
+  
+# ggplotly(b)
+
 ```
 
 It is clear from the map, that the majority of the station locations are in the Boston municipality. I was surprised at how far reaching this municipality is, especially that it "oozes" out and surrounds the Brookline municipality. I am not sure if this is due to labeling conventions employed by the Hubway dataset or if this reflects the true divisions of the area.
+
+```{r}
+# Found on: http://spatioanalytics.com
+library(leaflet)
+leaflet(stations) %>% addTiles() %>% addMarkers(popup=stations$`Station ID`)
+```
+
